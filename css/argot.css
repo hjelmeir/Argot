@@ -89,6 +89,9 @@ h4.name {
   line-height:35px;
   font-size:12px;
 }
+a i {
+  margin-right:6px;
+}
 .message {
   float:left;
   width:82%;
