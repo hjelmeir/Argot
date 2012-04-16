@@ -21,4 +21,13 @@ jQuery(document).ready(function ($) {
               });
     //currentTab.animate({ top: '3em' }).addClass('active');
   });
+  $('ul.nav li').not('.dropdown').find('a').click(function(e) {
+    e.preventDefault();
+    $('.edit_content').slideToggle();
+  });
+  $('.action').click(function(e) {
+    e.preventDefault();
+    $('.edit_content').slideToggle();
+  });
+  $('textarea.focus').focus();
 });

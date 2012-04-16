@@ -1,18 +1,47 @@
 body {
   padding:0;
 }
+.logo {
+  float:left;
+  position:relative;
+  margin-bottom:-32px;
+  margin-right:10px;
+  margin-top:1px;
+}
 .edit_content {
   display:none;
+  padding-top:40px;
+  padding-bottom:20px;
+  border-bottom: 1px solid #DDDDDD;
 }
 .sidebar-nav {
   width:0;
   float:right;
   overflow:hidden;
 }
+.navbar .brand {
+  padding-top:0;
+  line-height:30px;
+}
 .content {
   width:100%;
   height:100%;
   padding-top:40px;
+}
+.time {
+  border-bottom: 1px solid #ddd;
+    color: #CCCCCC;
+    font-size: 10px;
+    position: relative;
+    text-align: center;
+    top: -9px;
+    margin-bottom:16px;
+}
+.time span {
+    background-color: #FFFFFF;
+    padding: 5px;
+    position: relative;
+    top: 9px;
 }
 .chats {
   height:100%;
@@ -23,6 +52,7 @@ body {
 .chats article {
   clear:both;
   overflow:hidden;
+  position:relative;
 }
 .chats hr {
   margin-left:135px;
@@ -57,11 +87,20 @@ h4.name {
   height:35px;
   overflow:hidden;
   line-height:35px;
+  font-size:12px;
 }
 .message {
   float:left;
   width:82%;
   height:100%;
+}
+.activity {
+    color: #CCCCCC;
+    font-style: italic;
+    margin-left:145px;
+}
+a.block {
+  display:block;
 }
 /* Top Bar */
 .navbar-fixed-top {

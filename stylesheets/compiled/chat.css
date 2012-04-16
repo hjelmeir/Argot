@@ -1,0 +1,90 @@
+/**
+ * Roster
+**/
+ul.roster li {
+  list-style-type: none;
+  margin-bottom: 1px; }
+ul.roster span {
+  background-color: #fff;
+  display: block;
+  margin-left: 5px;
+  padding: 5px;
+  cursor: default; }
+ul.roster .active {
+  background-color: #57a957; }
+ul.roster .idle {
+  background-color: #f89406; }
+ul.roster .away {
+  background-color: #c43c35; }
+
+/**
+ * Messages
+**/
+[class*="span"] {
+  display: inline;
+  float: left;
+  margin-left: 5px; }
+
+.message-entry {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 240px;
+  z-index: 100;
+  height: 80px;
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), white 30%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), white 30%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.3, white)); }
+  .message-entry .input {
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    right: 5px;
+    bottom: 15px; }
+  .message-entry textarea {
+    width: 100%;
+    height: 100%;
+    resize: none; }
+
+.messages {
+  margin-bottom: 100px;
+  margin-top: 5px; }
+
+.message {
+  position: relative;
+  margin-bottom: 20px; }
+  .message :before, .message :after {
+    display: table;
+    *display: inline;
+    content: "";
+    zoom: 1; }
+  .message .text {
+    position: relative;
+    margin-left: 145px; }
+
+.user {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+  .user img {
+    vertical-align: text-bottom; }
+
+.activity {
+  color: #cccccc;
+  font-style: italic; }
+
+.time {
+  font-size: 10px;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+  color: #cccccc;
+  top: -9px; }
+  .time span {
+    background-color: #fff;
+    position: relative;
+    top: 9px;
+    padding: 5px; }
+
+.span1 {
+  width: 125px; }

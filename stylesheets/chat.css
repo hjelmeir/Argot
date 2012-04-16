@@ -1,0 +1,159 @@
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	}
+
+#tabs {
+	position: fixed;
+	top: 40px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	}
+	
+#sidebar {
+	position: fixed;
+	top: 90px;
+	}
+	
+#main_container {
+	margin-top: 70px;
+	}
+
+/**
+ * Chatting
+**/
+
+#chat {
+	margin: 0 290px 60px 0;
+	}
+	
+#search_chat {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	}
+	
+#chat .group_header{
+	height: 25px;
+	line-height: 25px;
+	background-color: #f1d04b;
+	border: 1px solid #b58e1c;
+	}
+	
+#messages {
+	background-color: #fff;
+	margin: 0 5px 0 5px;
+	border-left: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	}
+	
+#messages table {
+	width: 100%;
+	}
+	
+#messages td {
+	padding: 5px;
+	vertical-align: top;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 18px;
+	}		
+	
+.td_user {
+	white-space: nowrap;
+	max-width: 175px;
+	}	
+
+.td_user img {
+	vertical-align: bottom;
+	}
+	
+.td_time {
+	white-space: nowrap;
+	font-size: 10px;
+	color: #666;
+	border-right: 1px solid #ddd;
+	padding-right: 10px;
+	}
+	
+.tr_alert td {
+	background: transparent url(../images/alert_bg.gif) left center repeat-x;
+	overflow: visible !important;
+	}
+	
+.date {
+	position: absolute;
+	right: -30px;
+	top: -20px;
+	background: transparent url(../images/date_arrow.png) left center no-repeat;
+	padding-left: 5px;
+	color: #fff;
+	text-shadow: #242424 1px 1px 1px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	width: 40px;
+	height: 40px
+	}	
+	
+.date .day {
+	background-color: #b54040;
+	height: 15px;
+	padding-top: 5px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	}
+	
+.date .month {
+	background-color: #b54040;
+	height: 15px;
+	padding-bottom: 5px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	}
+	
+#messages .action {
+	color: #999;
+	font-style: italic;
+	}
+	
+#message_container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 290px;
+	height: 80px;
+	background: transparent url(../images/messages_bg.png) top left repeat-x;
+	}
+	
+#message_container div {
+	padding: 0 27px 0 25px;
+	margin-top: 25px;
+	margin-right: 50px;
+	position: relative;
+	}	
+	
+#messagebox {
+	height: 40px;
+	overflow: auto;
+	width: 100%;
+	z-index: 1;
+	padding-right: 50px;
+	font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;;
+	}
+	
+#sendbutton {
+	position: absolute;
+	top: 0px;
+	right: -20px;
+	z-index: 2;
+	}
